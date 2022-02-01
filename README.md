@@ -1,4 +1,4 @@
-# laravel-code-style
+# Laravel Code Style
 
 Laravel code style rules. I published an article that explains how to to do this, check the link below.
 
