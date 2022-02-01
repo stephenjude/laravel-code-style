@@ -1,12 +1,15 @@
 <?php
 /**
 -----------------------------------------------------
-Enforce the Laravel Code Style using PHP CS Fixer 3.x
+Enforce the Laravel Code Style using PHP CS Fixer
 -----------------------------------------------------
-Credits go to Laravel Shift & Andreas Elia.
+Credits go to Laravel Shift, Andreas Elia and Cristian Tabacitu.
+
 https://gist.github.com/laravel-shift/cab527923ed2a109dda047b97d53c200
+https://backpackforlaravel.com/articles/tutorials/how-to-automatically-apply-the-laravel-php-code-style-for-free
 
  **/
+
 $globalComposerPath = str_replace("bin/php-cs-fixer", 'autoload.php',$_SERVER['PHP_SELF']);
 
 require $globalComposerPath;
